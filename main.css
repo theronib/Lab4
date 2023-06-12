@@ -1,0 +1,68 @@
+#p1 {
+    padding: 30px; 
+    width: 690px;
+    height: 205px;  
+    background-color: #fffaea;
+  }
+
+.info{
+    background-color: rgb(245, 248, 248);
+    font-family: Arial;
+    color: grey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Тінь на кінець футера */
+
+}
+
+body {
+    background-color: #fffaea;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    padding-bottom: 50px; /* Приклад: Залиште місце для футера */
+}
+
+
+.badge {
+    width: 90px;
+    height: 120px;
+    background-color: rgb(235, 115, 46);
+    border: 2px solid rgb(236, 104, 17);
+    color: white;
+    font-family: Arial;
+    padding: 30px; 
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -10px;
+    position: fixed;
+    top: 540px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  .badgename{
+    font-size: 30px;
+    position: absolute;
+    left: 8%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+  
+  }
+  .name{
+    line-height: 150px;
+    margin-top: 40px; 
+    font-size: 15px;
+  
+  }
