@@ -5,19 +5,40 @@
     background-color: #fffaea;
   }
 
-.info{
+  .info {
     background-color: rgb(245, 248, 248);
     font-family: Arial;
     color: grey;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     padding: 30px;
     font-size: 11px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Тінь на кінець футера */
+  }
+
+.top-info {
+  background-color: rgb(65, 60, 60);
+  font-family: Arial;
+  color: rgb(170, 168, 168);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  text-align: left; /* Змінено значення text-align */
+  height: 40px;
+  padding: 30px 0 30px 148px; /* Змінено значення padding */
 
 }
+
+.top-text p{
+  display:inline;
+  margin: 0 15px; 
+  font-size: 100%;
+}
+
+.top-info .top-text p:nth-child(2) {
+  font-size: 70%;
+}
+
 
 body {
     background-color: #fffaea;
@@ -30,12 +51,8 @@ body {
     padding-bottom: 50px; /* Приклад: Залиште місце для футера */
 }
 
-
 .badge {
-    width: 90px;
-    height: 120px;
-    background-color: rgb(235, 115, 46);
-    border: 2px solid rgb(236, 104, 17);
+  width: 100px; /* Заданий ширина зображення */
     color: white;
     font-family: Arial;
     padding: 30px; 
@@ -44,25 +61,34 @@ body {
     align-items: flex-start;
     margin-top: -10px;
     position: fixed;
-    top: 540px;
-    left: 20px;
+    top: 78%;
+    left: -2%;
     font-size: 24px;
     font-weight: bold;
+  }
 
-  }
-  .badgename{
-    font-size: 30px;
-    position: absolute;
-    left: 8%;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
+  .badge img {
+    width: 195%;
+    height: auto;
+}
 
-  
-  }
-  .name{
-    line-height: 150px;
-    margin-top: 40px; 
-    font-size: 15px;
-  
-  }
+.logo{
+  width: 100px; /* Заданий ширина зображення */
+  color: white;
+  font-family: Arial;
+  padding: 30px; 
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -10px;
+  position: fixed;
+  top: -5.5%;
+  left: -1.2%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 150%;
+  height: auto;
+}
