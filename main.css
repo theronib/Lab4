@@ -26,13 +26,34 @@
   text-align: left; /* Змінено значення text-align */
   height: 40px;
   padding: 30px 0 30px 148px; /* Змінено значення padding */
-
 }
 
 .top-text p{
   display:inline;
   margin: 0 15px; 
   font-size: 100%;
+}
+
+
+.enter{
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+  width: 70px;
+  height: 5px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid rgb(205, 134, 3);
+  position: fixed;
+  top: 5%;
+  left: 85%;
+  transform: translate(-50%, -50%);
 }
 
 .top-info .top-text p:nth-child(2) {
@@ -61,7 +82,7 @@ body {
     align-items: flex-start;
     margin-top: -10px;
     position: fixed;
-    top: 78%;
+    top: 75%;
     left: -2%;
     font-size: 24px;
     font-weight: bold;
@@ -92,3 +113,31 @@ body {
   width: 150%;
   height: auto;
 }
+
+
+/* Код для екранів шириною менше 500px */
+@media only screen and (max-width: 870px) {
+.top-info .top-text p:nth-child(3) {
+  visibility: hidden;
+}
+}
+
+@media only screen and (max-width: 582px) {
+  .top-info .top-text p:nth-child(2) {
+    visibility: hidden;
+  }
+  }
+
+  @media screen and (max-width: 565px) {
+    .line,
+    .pizza {
+      visibility: hidden;
+    }
+
+    .enter{
+      top: 11%;
+    }
+
+
+  }
+  
