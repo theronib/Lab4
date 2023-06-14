@@ -22,19 +22,6 @@
   padding: 30px 0 30px 148px; 
 }
 
-.сart {
-  background-color: white;
-  width: 280px;
-  height: 100vh; /* Займати весь доступний висоту вікна */
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тінь для панелі */
-}
-
-
 .top-text p{
   display:inline;
   margin: 0 15px; 
