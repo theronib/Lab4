@@ -1,0 +1,113 @@
+.container {
+    min-height: 50vh;
+    padding-bottom: 800px; 
+}
+
+.container p{
+    font-family: Arial;
+}
+
+.all-pizza{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 130px; 
+    display: inline-block; /* Додано display: inline-block */
+}
+
+.amount {
+    background-color: orange;
+    border-radius: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    display: inline-block; /* Додано display: inline-block */
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-left: 10px; /* Задайте бажане значення відступу */
+    vertical-align:14% /* Додано vertical-align: top */
+
+  }
+
+  .p-header{
+    margin-left: 30%;
+  }
+
+  .pizza-type{
+    margin-left: 20%;
+  }
+
+  .pizza-1,.pizza-2,.pizza-3, .pizza-4,.pizza-5,.pizza-6{
+    background-color: transparent;
+  border: none; 
+  color:orange;
+  font-weight: 500;
+  }
+
+  .pizza-1:hover,
+.pizza-2:hover,
+.pizza-3:hover,
+.pizza-4:hover,
+.pizza-5:hover,
+.pizza-6:hover {
+  background-color: orange;
+  color:white;
+  height: 30px;
+  border-radius: 3px;
+}
+
+
+  @media only screen and (max-width: 625px) {
+    
+  .p-header{
+    margin-left: 13%;
+  }
+    }
+    
+    @media only screen and (max-width: 990px) {
+    
+        .pizza-type{
+            margin-left: 15%;
+          }
+          }
+
+          @media only screen and (max-width: 870px) {
+    
+            .pizza-type{
+                margin-left: 11%;
+              }
+              }
+
+              @media only screen and (max-width: 825px) {
+
+                .pizza-type {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 10px;
+                    grid-template-columns: repeat(2, 140px); 
+                    margin-left: 20%;
+                  }
+
+                }
+
+                @media only screen and (max-width: 730px) {
+
+                    .pizza-type {
+                        display: grid;
+                    grid-gap: 10px;
+                    grid-template-columns: repeat(1, 140px); 
+                    margin-left: 30%;
+                      }
+                    }
+
+                    @media only screen and (max-width: 625px) {
+
+                        .pizza-type {
+                            display: grid;
+                        grid-gap: 10px;
+                        grid-template-columns: repeat(1, 140px); 
+                        margin-left: 13%;
+                          }
+                        }
+          

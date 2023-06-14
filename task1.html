@@ -3,40 +3,50 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
 </head>
 
-
-
 <body>
-    <header>
-        <h1>Заголовок вашого сайту</h1>
-        <p>Додаткова інформація про сайт</p>
-    </header>
 
+  <!-- Основна сторінка -->
     <div class="container">
-        
+      <section class = "p-header">
+        <p class = "all-pizza">Усі піци</p>
+        <span class="amount">5</span>
+      </section>
+
+      <section class = "pizza-type">
+<button class = "pizza-1">Усі</button>
+<button class = "pizza-2">Мясні</button>
+<button class = "pizza-3">З ананасами</button>
+<button class = "pizza-4">З грибами</button>
+<button class = "pizza-5">З морепродуктами</button>
+<button class = "pizza-6">Вега</button>
+      </section>
+
     </div>
 
+    <footer class="top-info">
+      <div class="top-text">
+        <p>(044) 222 5 222</p>
+        <p>24 години/7 днів на тиждень</p>
+        <p>Безкоштовна доставка піци</p>
+        <hr class = "line">
+        <p class =  "pizza">Піца</p>
+        <button class="enter" type="button">Ввійти</button>
+      </div>
+    </footer>
+
+    <!-- Нижній контейнер  -->
     <footer class="info">
         <p>Pizza.22 - практичний проект в межах курсу JavaScript в Києво-Могилянській Академії</p>
         <p>Доставка піци не здійснюється</p>
     </footer>
 
-    <footer class="top-info">
-        <div class="top-text">
-          <p>(044) 222 5 222</p>
-          <p>24 години/7 днів на тиждень</p>
-          <p>Безкоштовна доставка піци</p>
-          <hr class = "line">
-          <p class =  "pizza">Піца</p>
-          <button class="enter" type="button">Ввійти</button>
-        </div>
-      </footer>
-      
-
+    <!-- Логотипи -->
     <div class = "logo">
         <img src="logo.png" alt = "logo">
     </div>
@@ -46,6 +56,10 @@
 
     </div>
 
+    <!-- Боковий контейнер (Корзина) -->
+    <div class="сart">
+<p>JJDJ</p>
+    </div>
     
 
 </body>
