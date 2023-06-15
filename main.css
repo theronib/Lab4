@@ -7,6 +7,8 @@
     font-size: 11px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Тінь на кінець футера */
+    margin-top: 100px;
+
   }
 
 .top-info {
