@@ -19,6 +19,27 @@
 
 }
 
+  
+  .new {
+    position: absolute; 
+    top: -8px; 
+    right: -10px;
+    width: 40px;
+    background-color: rgb(218, 73, 73); 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px; 
+    font-size: 12px; 
+    border-radius: 3px;
+  }
+
+  .popular{
+    background-color: rgb(46, 144, 46);
+    width: 68px;
+  }
+  
+
 .amount {
     background-color: orange;
     border-radius: 10px;
@@ -411,6 +432,10 @@
     .pizza-type {
         margin-left: 14.4%;
     }
+
+    .popular{
+       top: -5px;
+      }
 
 }
 
