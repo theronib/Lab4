@@ -1,4 +1,3 @@
-
 /* Основна сторінка (секції, піци) */
 
 .container {
@@ -16,6 +15,8 @@
     text-align: center;
     margin-top: 130px;
     display: inline-block;
+    margin-left: 35px;
+
 }
 
 .amount {
@@ -33,11 +34,11 @@
 }
 
 .p-header {
-    margin-left: 30%;
+    margin-left: 420px;
 }
 
 .pizza-type {
-    margin-left: 20%;
+    margin-left: 300px;
 }
 
 .pizza-1,
@@ -50,6 +51,8 @@
     border: none;
     color: orange;
     font-weight: 500;
+
+
 }
 
 .pizza-1:hover,
@@ -76,110 +79,112 @@
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     font-family: Arial;
-  }
-  
-  
-  .menu-2 {
-    left: 390px;
-  }
+}
 
-  .menu-3{
+
+.menu-2 {
+    left: 390px;
+}
+
+.menu-3 {
     left: 690px;
-  }
+}
 
-  .menu-4{
+.menu-4 {
     top: 690px;
-  }
+}
 
-  .menu-5{
+.menu-5 {
     left: 390px;
     top: 690px;
-  }
+}
 
-  .pizza-menu {
+.pizza-menu {
     display: block;
     margin: 0 auto;
-    max-width: 80%; 
-    height: auto; 
-    width: 120%; 
-  }
+    max-width: 80%;
+    height: auto;
+    width: 120%;
+}
 
-  .menu-title{
+.menu-title {
     font-family: Arial;
     font-weight: bold;
     color: rgb(255, 136, 0);
     font-size: 20px;
     margin-bottom: -9px;
 
-  }
+}
 
-  .menu-type{
+.menu-type {
     font-family: Arial;
-color:gray;
-font-size: 12px;
-margin-bottom: -9px;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: -9px;
 
-  }
+}
 
-  .ingridients{
+.ingridients {
     font-family: Arial;
     font-size: 12px;
 
-  }
+}
 
 .mea-1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
-.mea-img2{
+.mea-img2 {
     margin-left: 16px;
 
 }
-.mea-2{
+
+.mea-2 {
     margin-left: 3px;
 }
 
-.menu-price-big, .menu-price-small{
+.menu-price-big,
+.menu-price-small {
     font-weight: bold;
     display: inline-block;
     margin-top: -1px;
 }
 
-.buybutton{
+.buybutton {
     background-color: orange;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
-  font-weight: bold;
-  font-size: 13px;
-  width: 70px;
-  height: 5px;
-  padding: 15px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3px;
-  border: 2px solid rgb(205, 134, 3);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    width: 70px;
+    height: 5px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 2px solid rgb(205, 134, 3);
 }
 
-.menu-price-big{
+.menu-price-big {
     margin-left: 45px;
 
 }
 
 
-.menu-price-small{
+.menu-price-small {
     margin-left: 14px;
 }
 
-.buy-small1{
+.buy-small1 {
     margin-left: 8px;
 }
 
-.buy-big1{
+.buy-big1 {
     margin-left: 113px;
-margin-top: -35px;
+    margin-top: -35px;
 }
 
 
@@ -247,9 +252,121 @@ margin-top: -35px;
 
 
 @media only screen and (max-width: 1100px) {
-    .menu-3{
+    .menu-1 {
+        left: 170px;
+    }
+
+    .menu-2 {
+        left: 440px;
+    }
+
+    .menu-3 {
         top: 690px;
-        left: 90px;
+        left: 170px;
+    }
+
+    .menu-4 {
+        left: 440px;
+    }
+
+    .menu-5 {
+        top: 1130px;
+        left: 170px;
+    }
+
+    .p-header {
+        margin-left: 340px;
+    }
+    
+    .pizza-type {
+        margin-left: 220px;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 625px) {
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 40px;
+    }
+
+.menu-1{
+    top: 380px;
+}
+
+    .menu-2{
+        top: 820px;
+    }
+
+    .menu-3{
+        top: 1260px;
+    }
+
+    .menu-4{
+        top: 1700px;
+    }
+
+    .menu-5{
+        top: 2140px;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 30px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 955px) {
+
+
+    .p-header {
+        margin-left: 30%;
+    }
+    
+    .pizza-type {
+        margin-left: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 955px) {
+    .menu-1{
+        left: 110px;
+    }
+
+    .menu-2{
+        left: 390px;
+    }
+
+    .menu-3{
+        left: 110px;
     }
 
     .menu-4{
@@ -257,7 +374,78 @@ margin-top: -35px;
     }
 
     .menu-5{
-        top: 1130px;
-        left: 90px;
+        left: 110px;
     }
-        }
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 200px;
+    }
+
+.menu-1{
+    top: 250px;
+}
+
+    .menu-2{
+        top: 690px;
+    }
+
+    .menu-3{
+        top: 1130px;
+    }
+
+    .menu-4{
+        top: 1570px;
+    }
+
+    .menu-5{
+        top: 2010px;
+    }
+
+    
+    .pizza-type {
+        margin-left: 14.4%;
+    }
+
+}
+
+@media only screen and (max-width: 625px) {
+
+    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+        left: 40px;
+    }
+
+.menu-1{
+    top: 380px;
+}
+
+    .menu-2{
+        top: 820px;
+    }
+
+    .menu-3{
+        top: 1260px;
+    }
+
+    .menu-4{
+        top: 1700px;
+    }
+
+    .menu-5{
+        top: 2140px;
+    }
+
+    .p-header {
+        margin-left: 10.3%;
+    }
+    
+    .pizza-type {
+        margin-left: 14.6%;
+    }
+
+}
