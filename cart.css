@@ -3,7 +3,7 @@
 .сart {
     background-color: white;
     width: 280px;
-    height: 100vh;
+    height: 700px;
     /* Займати весь доступний висоту вікна */
     position: fixed;
     top: 0;
@@ -18,10 +18,10 @@
 .pizza-orders {
     background-color: #f9fafc;
     width: 280px;
-    height: 70vh;
+    height: 520px;
     /* Займати весь доступний висоту вікна */
     position: fixed;
-    top: 100px;
+    top: 80px;
     right: 0;
     padding: 20px;
     box-sizing: border-box;
@@ -73,7 +73,7 @@
 }
 
 .cart-order {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 200px;
     height: 40px;
