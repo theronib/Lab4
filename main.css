@@ -105,7 +105,7 @@ body {
 }
 
 
-@media only screen and (max-width: 1064px) {
+@media only screen and (max-width: 1120px) {
   .top-info .top-text p:nth-child(3) {
     visibility: hidden;
   }
@@ -117,7 +117,7 @@ body {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 980px) {
   .top-info .top-text p:nth-child(2) {
     visibility: hidden;
   }
@@ -139,6 +139,7 @@ body {
     .info{
       margin-top: 550px;
     }
+
         }
 
   @media only screen and (max-width: 780px) {
@@ -159,4 +160,20 @@ body {
     .info{
       margin-top: 1500px;
     }
+}
+
+
+
+@media only screen and (max-width: 1189px) {
+
+  body {
+    zoom: 107%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  body {
+    zoom: 109%;
+  }
 }
