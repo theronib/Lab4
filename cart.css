@@ -238,3 +238,21 @@ img {
     top: -29px;
     left: 89px;
 } 
+
+@media only screen and (max-width: 1189px) {
+    .pizza-orders {
+       
+        height: 480px;
+    }
+    .thesum {
+        top: 500px;
+    }
+    .sumnumber {
+        
+        top: 465px;
+    }
+    .cart-order {
+        top: 620px;
+    }
+
+  }
