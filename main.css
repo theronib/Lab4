@@ -1,4 +1,5 @@
-
+/* Сторінка сайту (без меню) */
+  
   .info {
     background-color: rgb(245, 248, 248);
     font-family: Arial;
@@ -6,7 +7,7 @@
     padding: 30px;
     font-size: 11px;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Тінь на кінець футера */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
     margin-top: 100px;
 
   }
@@ -169,6 +170,8 @@ body {
   body {
     zoom: 107%;
   }
+
+
 }
 
 @media only screen and (max-width: 1100px) {
