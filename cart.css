@@ -148,20 +148,20 @@ img {
 
 .remove-button {
     background-color: rgb(219, 21, 21);
-    top: 103px;
+    top: 105px;
     left: 78px;
 }
 
 .add-button {
     background-color: rgb(17, 140, 17);
     left: 128px;
-    top: 103px;
+    top: 105px;
 }
 
 .cancel-button {
     background-color: rgb(255, 255, 255);
     left: 160px;
-    top: 103px;
+    top: 105px;
     color:orange;
     width: 23px;
     height: 23px;
@@ -170,20 +170,20 @@ img {
 
 .remove-button2 {
     background-color: rgb(219, 21, 21);
-    top: 239px;
+    top: 240px;
     left: 78px;
 }
 
 .add-button2 {
     background-color: rgb(17, 140, 17);
     left: 128px;
-    top: 239px;
+    top: 240px;
 }
 
 .cancel-button2 {
     background-color: rgb(255, 255, 255);
     left: 160px;
-    top: 239px;
+    top: 240px;
     color:orange;
     width: 23px;
     height: 23px;
@@ -244,14 +244,14 @@ img {
         height: 480px;
     }
     .thesum {
-        top: 500px;
+        top: 495px;
     }
     .sumnumber {
         
-        top: 465px;
+        top: 460px;
     }
     .cart-order {
-        top: 620px;
+        top: 613px;
     }
 
   }
