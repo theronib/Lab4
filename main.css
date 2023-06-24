@@ -155,7 +155,7 @@ body {
   @media only screen and (max-width: 800px) {
 
     .info{
-      margin-top: 1500px;
+      margin-top: 1800px;
     }
 }
 
@@ -165,7 +165,8 @@ body {
 
   body {
     zoom: 107%;
-    overflow-y: auto;
+    overflow-x: auto;
+    min-width: 1189px;
 
   }
   .badge {
@@ -186,7 +187,7 @@ body {
 @media only screen and (max-width: 625px) {
 
   .info{
-    margin-top: 1520px;
+    margin-top: 1920px;
   }
 
   body {

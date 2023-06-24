@@ -121,6 +121,12 @@
     top: 690px;
 }
 
+.menu-6 {
+    left: 690px;
+    top: 690px;
+}
+
+
 .pizza-menu {
     display: block;
     margin: 0 auto;
@@ -212,9 +218,6 @@
 
 
 
-
-
-
 @media only screen and (max-width: 625px) {
 
     .p-header {
@@ -287,6 +290,12 @@
         top: 1130px;
         left: 170px;
     }
+
+
+  .menu-6 {
+    left: 440px;
+    top: 1130px;
+}
 
     .p-header {
         margin-left: 340px;
@@ -361,11 +370,11 @@
 
 
     .p-header {
-        margin-left: 30%;
+        margin-left: 260px;
     }
     
     .pizza-type {
-        margin-left: 20%;
+        margin-left: 150px;
     }
 
 }
@@ -390,6 +399,11 @@
     .menu-5{
         left: 110px;
     }
+
+    .menu-6{
+        left: 390px;
+    }
+    
 
 }
 
@@ -421,9 +435,17 @@
         top: 2010px;
     }
 
+    .menu-6{
+        top: 2450px;
+    }
+
+    
+    .p-header {
+        margin-left: 220px;
+    }
     
     .pizza-type {
-        margin-left: 14.4%;
+        margin-left: 120px;
     }
 
     .popular{
@@ -458,12 +480,16 @@
         top: 2140px;
     }
 
+    .menu-6{
+        top: 2580px;
+    }
+
     .p-header {
-        margin-left: 10.3%;
+        margin-left: 60px;
     }
     
     .pizza-type {
-        margin-left: 14.6%;
+        margin-left: 90px;
     }
 
     .new, .popular {
